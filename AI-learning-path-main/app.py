@@ -348,7 +348,7 @@ if __name__ == "__main__":
             print(f"ID: {user.id} | Username: {user.username} | Email: {user.email}")
 
         # 👇 DELETE USER BY ID (Change the ID to delete)
-        user_id_to_delete = 2  # e.g., 2
+        user_id_to_delete = None  # e.g., 2
 
         if user_id_to_delete:
             user = db.session.get(User, user_id_to_delete)
